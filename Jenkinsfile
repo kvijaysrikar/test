@@ -7,10 +7,6 @@ pipeline {
         junit '*.xml'
       }
     }
-    stage('Build') {
-      steps {
-        bat '.\\\\Scripts\\\\Build.bat'
-      }
-    }
+
   }
 }
